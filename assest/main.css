@@ -112,7 +112,7 @@ margin-top: 50px;
 padding-bottom: 30px;
 }
 main section .start-info
-{
+{   position: relative;
     display: flex;
     padding: 12px 24px 12px 12px;
     justify-content: center;
@@ -124,7 +124,6 @@ main section .start-info
 }
 main section .logo{
 width: fit-content;
-position: relative;
 display: flex;
 padding: 12px;
 justify-content: center;
