@@ -33,7 +33,7 @@ header .row {
     align-items: center;
 }
 .logo{
-    padding :3px;
+    padding :5px;
     background: var(--orange-50, #FF9500);
     border-radius: 8px;
     width: fit-content;
@@ -43,10 +43,7 @@ header .row {
     width: 33px;
     height: 33px;
 }
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
-}
+
  header .row  nav{
     display: flex;
     flex-wrap: wrap;
@@ -75,16 +72,12 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
-header nav .auth{
-    margin-left: auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-}
 header .row .auth {
-display: flex;
-align-items: center;
-gap: 30px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-left: auto;
+    justify-content: flex-end;
 }
 header .row .auth .SignUp{
 color: var(--grey-15, #262626);
