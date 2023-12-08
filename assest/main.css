@@ -269,3 +269,103 @@ img{
    padding: 14px;
    align-items: flex-start;
 }
+section {
+    margin-bottom: 100px;
+}
+main .card-sec {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 55px;
+}
+.card-sec .info{
+    width: calc(100% -350px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.info h2{
+color: var(--grey-15, #262626);
+font-family: Be Vietnam Pro;
+font-size: 48px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 72px */
+}
+.info p{
+color: var(--grey-35, #59595A);
+font-family: Be Vietnam Pro;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+.info .view {
+display: flex;
+padding: 16px 20px;
+justify-content: center;
+align-self: flex-end;
+margin-left: auto;
+border-radius: 5px;
+border:1px solid #F1F1F3;
+color: var(--grey-15, #262626);
+text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 27px */
+background-color: #FFF;
+}
+main  .benefts .cards{
+display: flex;
+flex-wrap: wrap;
+gap: 22px;
+margin-top: 30px;
+}
+.card-sec .card{
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+width: calc( ( 100% - 50px ) / 3);
+padding: 33px;
+flex-direction:column;
+background-color: #FFF;
+border-radius: 10px;
+flex-grow: 1;
+}
+.card span {
+color: var(--grey-15, #262626);
+text-align: right;
+font-family: Be Vietnam Pro;
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 30% */
+}
+.card h3{
+color: var(--grey-20, #333);
+font-family: Be Vietnam Pro;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 36px */
+letter-spacing: -0.144px;
+}
+.card p{
+color: var(--grey-30, #4C4C4D);
+font-family: Be Vietnam Pro;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+ .cards .icon {
+    padding: 14px;
+    border-radius: 6px;
+    background-color: #FCFCFD;
+    border:1px solid #F1F1F3;
+    width: fit-content;
+    align-self: flex-end;
+}
