@@ -14,7 +14,7 @@ ul{
 img{
     display: flex;
 }
-/*header*/
+/header/
 header{
     padding: 16px 0 20px;
     border-bottom: 1px solid var(--white-95, #F1F1F3);
@@ -102,7 +102,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 21px */
 }
-/*main*/
 main section .subcontainer{
 display: flex;
 flex-direction: column;
@@ -210,4 +209,63 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 150%;
+}
+/card item/
+.container{
+    width: calc(100% - 160px);
+}
+.card .container .column{
+gap: 100px;
+}
+.column{
+display: flex;
+flex-direction: column;
+}
+.card-item{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-99, #FCFCFD);
+}
+.card-item .item{
+ width: calc(100% /7 );
+display: flex;
+padding: 20px 30px;
+justify-content: center;
+align-items: flex-start;
+border-right:1px solid #F1F1F3;
+}
+.card-item :last-child{
+    border-right:none;
+}
+.card .column .video{
+    position: relative;
+    width: 100%;
+}
+.video .img
+{
+    width: 100%;
+    filter: brightness(0.8);
+    border-radius: 10px;
+    aspect-ratio: 1.972265/1;
+}
+img{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.video .logo
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 68px;
+   border: 6px solid rgba(255, 255, 255, 0.30);
+   background: rgba(255, 255, 255, 0.20);
+   padding: 14px;
+   align-items: flex-start;
 }
