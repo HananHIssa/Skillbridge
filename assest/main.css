@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family: " Be Vietnam Pro" ,sans-serif;
 }
+body{
+   background-color:  #F1F1F3;
+}
 a{
     text-decoration: none;
 }
@@ -21,7 +24,7 @@ header{
 }
 .container{
     width: calc( 100% - 324px );
-    background: var(--white-97, #F7F7F8);
+   /* background: var(--white-97, #F7F7F8);*/
     margin: auto;
 }
 header .row {
@@ -372,20 +375,21 @@ line-height: 150%; /* 27px */
 .ava-courses{
     margin-bottom: 100px;
 }
-.ava-courses .card-info {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 60px;
+ .card-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 60px;
 }
 .ava-courses .card-sec{
-    width: calc(100% - 350px);
+    width: calc(100% - 200px);
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 20px;
+    flex-wrap: nowrap;
 }
 .ava-courses .view{
-padding: 14px 20px;
+    padding: 14px 20px;
     background-color: var(--secondary-bg-color);
     align-self: flex-end;
     color: var(--grey-15, #262626);
@@ -393,26 +397,32 @@ padding: 14px 20px;
     border:1px solid #F1F1F3;
     margin-left: auto;
     text-align: center;
-        font-family: Be Vietnam Pro;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 150%; 
-        background-color: #FFF;
+    font-family: Be Vietnam Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; 
+    background-color: #FFF;
 }
     .ava-courses .courses {
         display: flex;
         padding: 40px;
         flex-wrap: wrap;
-        gap: 22px;
-        border-radius: 10px;
-        border: 1px solid var(--white-95, #F1F1F3);
-        background: var(--absolute-white, #FFF);
+        gap: 30px;
         justify-content: space-between;
         align-items: flex-start;
     }
     .courses .course {
         width: calc( (100% / 2) - 30px );
+        padding: 40px;
+        border-radius: 10px;
+        border: 1px solid var(--white-95, #F1F1F3);
+        background: var(--absolute-white, #FFF);
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+         gap: 24px
+;
     }
     .ava-courses .courses .course img{
         object-fit: cover;
@@ -500,6 +510,6 @@ padding: 14px 20px;
         font-style: normal;
         font-weight: 500;
         line-height: 150%;  
-     }*/
+     }
      
     
