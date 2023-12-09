@@ -369,3 +369,137 @@ line-height: 150%; /* 27px */
     width: fit-content;
     align-self: flex-end;
 }
+.ava-courses{
+    margin-bottom: 100px;
+}
+.ava-courses .card-sec{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+.ava-courses .card-sec .info{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.card-sec
+    .view {
+        display: flex;
+        padding: 16px 20px;
+        justify-content: center;
+        align-self: flex-end;
+        margin-left: auto;
+        border-radius: 5px;
+        border:1px solid #F1F1F3;
+        color: var(--grey-15, #262626);
+        text-align: center;
+        font-family: Be Vietnam Pro;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 27px */
+        background-color: #FFF;
+    }
+    .ava-courses .courses {
+        display: flex;
+        padding: 40px;
+        flex-wrap: wrap;
+        gap: 22px;
+        border-radius: 10px;
+        border: 1px solid var(--white-95, #F1F1F3);
+        background: var(--absolute-white, #FFF);
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .ava-courses .course {
+        width: calc ( ( 100% - 44px ) /2 );
+    }
+    .ava-courses .courses .course img{
+        object-fit: cover;
+        width: 100%;
+        border-radius: 6px;
+        aspect-ratio: 549.5/266;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .ava-courses  .course  .data{
+     margin-top: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .ava-courses .courses .course .data .row{
+        gap: 12px;
+      }
+      .week{
+        color: var(--grey-30, #4C4C4D);
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 9px;
+        border: 1px solid var(--white-95, #F1F1F3);
+        background: var(--absolute-white, #FFF);
+        padding: 8px 14px;
+      }
+     .status{
+        border-radius: 6px;
+        border: 1px solid var(--white-95, #F1F1F3);
+        background: var(--absolute-white, #FFF);
+        color: var(--grey-30, #4C4C4D);
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 8px 14px;
+     }
+     .name{
+        color: var(--grey-15, #262626);
+       font-family: Be Vietnam Pro;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: normal;
+     }
+     .ava-courses .info-course {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+     .ava-courses h3{
+        color: var(--grey-15, #262626);
+        font-family: Be Vietnam Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 30px */
+     }
+     .ava-courses .course {
+        color: var(--grey-30, #4C4C4D);
+        font-family: Be Vietnam Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 24px */
+     }
+     .ava-courses .course a{
+        padding: 14px 24px;
+        border-radius: 6px;
+        border: 1px solid var(--white-95, #F1F1F3);
+        background: var(--white-97, #F7F7F8);
+        width: 100%;
+        font-size: 14px;
+        font-weight: 500;
+        color: var(--grey-15, #262626);
+        text-align: center;
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 21px */
+     }
+     
