@@ -379,7 +379,7 @@ line-height: 150%; /* 27px */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 .ava-courses .card-sec{
     width: calc(100% - 200px);
@@ -406,7 +406,7 @@ line-height: 150%; /* 27px */
 }
     .ava-courses .courses {
         display: flex;
-        padding: 40px;
+        padding: 20px;
         flex-wrap: wrap;
         gap: 30px;
         justify-content: space-between;
@@ -414,7 +414,7 @@ line-height: 150%; /* 27px */
     }
     .courses .course {
         width: calc( (100% / 2) - 30px );
-        padding: 40px;
+        padding: 20px;
         border-radius: 10px;
         border: 1px solid var(--white-95, #F1F1F3);
         background: var(--absolute-white, #FFF);
