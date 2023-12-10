@@ -760,16 +760,15 @@ line-height: 73%; /* 11.68px */
     }
     .ourpricing .column    a 
     {
-        display: flex;
-        flex-direction: row;
+
         padding: 18px 24px;
         gap: 8px;
-        align-items: center;
+        text-align: center;
+        padding: 18px 24px;
         align-self: stretch;
         border-radius: 0px 0px 8px 8px;
         background: var(--orange-50, #FF9500);
         color: var(--absolute-white, #FFF);
-        text-align: center;
         font-family: Be Vietnam Pro;
         font-size: 14px;
         font-style: normal;
