@@ -24,6 +24,7 @@ header{
     position: sticky;
     top: 0;
     background-color: #fff;
+    z-index: 9;
 }
 .container{
     width: calc( 100% - 324px );
@@ -323,6 +324,13 @@ font-style: normal;
 font-weight: 500;
 line-height: 150%; /* 27px */
 background-color: #FFF;
+color: var(--grey-15, #262626);
+text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
 }
 main  .benefts .cards{
 display: flex;
@@ -406,6 +414,13 @@ line-height: 150%; /* 27px */
     font-weight: 500;
     line-height: 150%; 
     background-color: #FFF;
+    color: var(--grey-15, #262626);
+text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
 }
     .ava-courses .courses {
         display: flex;
@@ -775,4 +790,139 @@ line-height: 73%; /* 11.68px */
         font-weight: 600;
         line-height: 150%; /* 21px */
     }
+    /*footer*/
 
+    footer{
+        background-color: #fff;
+        padding: 40px 0;
+        padding-top: 40px;
+    }
+    footer .row {
+      /*  display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        width: calc( 100% - 185px );*/
+        display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+    }
+    footer .first  
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    footer .first .logo
+    {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-inline-start: 0;
+    }
+    footer .logo img{
+        width: 35px;
+    }
+    footer .first .contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-direction: column;
+        margin-left: 0;
+    }
+    footer .first .item
+    {
+        /*display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-left: 0;*/
+        display: flex;
+width: 304px;
+align-items: flex-start;
+align-content: flex-start;
+gap: 14px;
+flex-wrap: wrap;
+    }
+    footer .first .contact img {
+        width: 25px;
+    
+    }
+    footer span {
+    font-family: 'Be Vietnam Pro';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    }
+    footer .sec {
+       /* display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 24px;
+        margin-left:auto;
+        justify-self:flex-end;
+        align-self: center;
+        justify-content: flex-start;
+        width: 737px;*/
+        display: flex;
+width: 737px;
+align-items: flex-start;
+gap: 24px;
+    }
+    footer .sec .sec-item{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 25px;
+        justify-content: flex-start;
+        padding-right: 20px;
+        width: calc( (100% / 3) - 30px );
+    }
+    footer .sec-item  nav
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: left;
+        margin-left: 0;
+        gap: 5px;
+    }
+    footer nav .row img{
+        display: flex;
+padding: 12px;
+flex-direction: column;
+align-items: flex-start;
+gap: 15px;
+    }
+    footer a {
+    color: #59595A;
+    font-size: 14px;
+    margin-left: 0;
+    font-family: 'Be Vietnam Pro';
+    }
+    footer .sec h2{
+        color: var(--grey-15, #262626);
+        font-family: Be Vietnam Pro;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        gap: 20px;
+    }
+    footer .sec h3{
+        color: var(--grey-35, #59595A);
+        font-family: Be Vietnam Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
