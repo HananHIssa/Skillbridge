@@ -291,40 +291,35 @@ main .card-sec {
     display: flex;
     flex-direction: column;
     gap: 5px;
+    padding-bottom: 20px;
 }
 .info h2{
-color: var(--grey-15, #262626);
-font-family: Be Vietnam Pro;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 150%; /* 72px */
+    color: var(--grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 57px */
 }
 .info p{
-color: var(--grey-35, #59595A);
-font-family: Be Vietnam Pro;
-font-size: 19px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 27px */
+    color: var(--grey-35, #59595A);
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
 }
-.info .view {
-display: flex;
-padding: 16px 20px;
-justify-content: center;
-align-self: flex-end;
-margin-left: auto;
-border-radius: 5px;
-border:1px solid #F1F1F3;
-color: var(--grey-15, #262626);
-text-align: center;
-font-family: Be Vietnam Pro;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; /* 27px */
-background-color: #FFF;
-color: var(--grey-15, #262626);
+.benefts .card-sec  .view {
+    padding: 14px 20px;
+    background-color: var(--secondary-bg-color);
+    align-self: flex-end;
+    color: var(--grey-15, #262626);
+    border-radius: 5px;
+    border:1px solid #F1F1F3;
+    margin-left: auto;
+    text-align: center;
+    background-color: #FFF;
+    color: var(--grey-15, #262626);
 text-align: center;
 font-family: Be Vietnam Pro;
 font-size: 14px;
@@ -794,7 +789,7 @@ line-height: 73%; /* 11.68px */
 
     footer{
         background-color: #fff;
-        padding: 40px 0;
+        padding: 50px 0;
         padding-top: 40px;
     }
     footer .row {
@@ -868,15 +863,17 @@ flex-wrap: wrap;
         flex-wrap: wrap;
         text-align: center;
         gap: 24px;
-        margin-left:auto;
-        justify-self:flex-end;
+        
+        
         align-self: center;
         justify-content: flex-start;
         width: 737px;*/
         display: flex;
-width: 737px;
-align-items: flex-start;
+       width: 737px;
+       /*align-items: flex-start;*/
 gap: 24px;
+justify-self:flex-end;
+margin-left:auto;
     }
     footer .sec .sec-item{
         display: flex;
