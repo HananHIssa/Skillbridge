@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@600&family=Inter&family=Poppins&family=Roboto:ital,wght@1,100&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -511,5 +511,116 @@ line-height: 150%; /* 27px */
         font-weight: 500;
         line-height: 150%;  
      }
-     
+     .ourtestimonials .card-info{
+    display: flex;
+    flex-wrap:nowrap ;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    }
+    .ourtestimonials .card-sec{
+        width: calc(100% - 200px);
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        flex-wrap: nowrap;
+    }
+    .ourtestimonials .view{
+        padding: 14px 20px;
+        background-color: var(--secondary-bg-color);
+        align-self: flex-end;
+        color: var(--grey-15, #262626);
+        border-radius: 5px;
+        border:1px solid #F1F1F3;
+        margin-left: auto;
+        text-align: center;
+        font-family: Be Vietnam Pro;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; 
+        background-color: #FFF;
+    }
+    .testimonials
+    {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .testimonials .testimonial{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: calc((100% - 20px) / 2);
+        flex-grow: 1;
+        border-radius: 10px;
+        background-color: #FFF;
+        padding: 20px  40px;
+    }
+    .testimonial p{
+        color: var(--grey-30, #4C4C4D);
+        font-family: Be Vietnam Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        flex: 1 0 0;
+    }
+    .testimonial .row{
+      flex-wrap: nowrap;
+      justify-self: flex-start;
+      margin-right: auto;
+      width: 100%;
+      border: 1px solid var(--white-95, #F1F1F3);
+      background: var(--white-99, #FCFCFD);
+    }
+    .testimonial .info{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        width: 100%;
+        margin-right: auto;
+    }
+    .testimonial .info img {
+        border-radius: 6px;
+        width: 70px;
+        object-fit: cover;
+        aspect-ratio: 1/1;
+    }
+    .testimonial .info .name {
+        color: var(--grey-20, #333);
+        font-family: Be Vietnam Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%; /* 24px */
+        display: flex;
+        flex: 1 0 0;
+        text-transform: capitalize;
+    }
+    .testimonial a{
+        color: var(--grey-15, #262626);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    /* 21px */
+    display: flex;
+    padding: 14px 16px;
+    justify-self: flex-end;
+    margin-left: auto;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--white-95, #F1F1F3);
+    background: var(--white-97, #F7F7F8);
+    }
+
+
     
