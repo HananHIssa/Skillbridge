@@ -1195,6 +1195,66 @@ padding: 20px;
 }
                @media (max-width:600px)
                 {
+                    .start .start-main h1{
+                        color: var(--Grey-15, #262626);
+                        text-align: center;
+                        font-family: Be Vietnam Pro;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 150%; /* 21px */
+                    }
+                    .start .start-info h3{
+                        color: var(--Grey-15, #262626);
+                        text-align: center;
+                        font-family: Be Vietnam Pro;
+                        font-size: 24px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%; /* 36px */
+                    }
+                    .start .start-info p{
+                        color: var(--Grey-15, #262626);
+                        text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+                    }
+                    .start .start-main h1 span {
+                        color: var(--Orange-50, #FF9500);
+                        font-family: Be Vietnam Pro;
+                        font-size: 13px;
+                        font-style: normal;
+                        font-weight: 300;
+                        line-height: 150%; /* 24px */
+                    }
+                    .start .linker .explore{
+                        display: flex;
+                      padding: 14px 20px;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 8px;
+                    border-radius: 6px;
+                    color: var(--Absolute-White, #FFF);
+                    text-align: center;
+                     font-family: Be Vietnam Pro;
+                    font-size: 14px;
+                    font-style: normal;
+                    font-weight: 600;
+                      line-height: 150%; /* 21px */
+                    background: var(--Orange-50, #FF9500)
+                    }
+                    .start .linker .price{
+                        color: var(--Grey-15, #262626);
+text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; /* 21px */
+                    }
                     .start .subcontainer .start-info {
                         margin-top: 50px;
                         margin-bottom: 30px;
@@ -1203,7 +1263,7 @@ padding: 20px;
                         padding: 14px;
                         margin-bottom: 15px;
                     }
-                    .start .subcontainer .start-info .start-main h1{
+                  /*  .start .subcontainer .start-info .start-main h1{
                         font-size: 15px;
                     }
                     .start .subcontainer .start-info h2{
@@ -1213,7 +1273,13 @@ padding: 20px;
                     .start .subcontainer .start-info p{
                         font-size: 13px;
                         margin-bottom: 50px;
-                    }
+                    }*/
+                    .start .start-info .start-main span {
+                        color: var(--Orange-50, #FF9500);
+                        text-align: center;
+                        font-family: Be Vietnam Pro;
+                        font-style: normal;
+                        line-height: 150%;
                 }
                 @media (min-width:600px) and (max-width:940px)
                 {
@@ -1420,7 +1486,7 @@ padding: 20px;
     .testimonials .testimonial .info{
         padding: 20px 30px;
     }
-    .testimonials .testimonial .row a{
+    .testimonials .testimonial   a{
         font-size: 14px;
         padding: 10px 12px;
     }
@@ -1428,3 +1494,226 @@ padding: 20px;
         font-size: 16px;
     }
 }
+@media (max-width :600px)
+{
+    .ourpricing .card-info .taps {
+        align-self: center;
+    }
+    .ourpricing .row{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .ourpricing .row .column {
+        width: 100%;
+        flex-grow: 1;
+        padding: 30px 20px;
+    }
+    .ourpricing .row .column h3{
+        padding: 8px 22px;
+        font-size: 16px;
+    }
+    .ourpricing .row .column .taps {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .ourpricing .row .column  span .active{
+        font-size: 50px;
+    }
+    .ourpricing .row .column  span .year{
+        font-size: 14px;
+    }
+    .ourpricing .row .column .availablefeatures {
+        padding:20px ;
+        gap: 20px;
+        border-radius: 10px 10px 0 0;
+    }
+    .ourpricing .row .column .availablefeatures .features{
+        padding: 0;
+    }
+    .ourpricing .row .column .availablefeatures .features .icon {
+        width: 16px;
+        height: 16px;
+    }
+    .ourpricing .row .column h3 {
+    color: var(--Grey-15, #262626);
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 169%; /* 27.04px */ 
+    }
+.ourpricing .column .money span .price {
+color: var(--Grey-15, #262626);
+font-family: Be Vietnam Pro;
+font-size: 50px;
+font-style: normal;
+font-weight: 600;
+line-height: 73%; /* 36.5px */
+}
+.ourpricing .row .column span .month{
+color: var(--Grey-30, #4C4C4D);
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 73%; /* 10.22px */
+}
+.ourpricing .availablefeatures .features spqn{
+    color: var(--Grey-30, #4C4C4D);
+    font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+}
+.ourpricing .availablefeatures .features a{
+    color: var(--Absolute-White, #FFF);
+text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 21px */
+}
+}
+@media (min-width :600px) and (max-width:904px)
+{
+    .ourpricing .card-info .taps {
+        align-self: center;
+    }
+    .ourpricing .row{
+        flex-direction: column;
+        padding: 20px;
+    }
+    .ourpricing .row .column {
+        width: 100%;
+        flex-grow: 1;
+        padding: 30px 20px;
+    }
+    .ourpricing .row .column h3{
+        padding: 8px 22px;
+        font-size: 16px;
+    }
+    .ourpricing .row .column .taps {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .ourpricing .row .column  span .price{
+        font-size: 50px;
+    }
+    .ourpricing .row .column  span .month{
+        font-size: 14px;
+    }
+    .ourpricing .row .column .availablefeatures {
+        padding:20px ;
+        gap: 20px;
+        border-radius: 10px 10px 0 0;
+    }
+    .ourpricing .row .column .availablefeatures .features{
+        padding: 0;
+    }
+    .ourpricing .availablefeatures .features spqn{
+        color: var(--Grey-30, #4C4C4D);
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%; /* 21px */
+    }
+    .ourpricing .availablefeatures .features a{
+        color: var(--Absolute-White, #FFF);
+text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 21px */
+    }
+}
+@media (min-width :905px) and (max-width:1200px)
+{
+    .ourpricing .card-info .taps {
+        align-self: center;
+    }
+    .ourpricing .row{
+        padding: 20px;
+    }
+    .ourpricing .row .column {
+        flex-grow: 1;
+        padding: 30px 20px;
+    }
+    .ourpricing .row .column h3{
+        padding: 8px 22px;
+        font-size: 16px;
+    }
+    .ourpricing .row .column .taps {
+        text-align: center;
+        margin: 30px 0;
+    }
+    .ourpricing .row .column  span .price{
+        font-size: 50px;
+    }
+    .ourpricing .row .column  span .month{
+        font-size: 14px;
+    }
+    .ourpricing .row .column .availablefeatures {
+        padding:20px ;
+        gap: 20px;
+        border-radius: 10px 10px 0 0;
+    }
+    .ourpricing .row .column .availablefeatures .features{
+        padding: 0;
+    }
+}
+@media (min-width :1601px) 
+{
+    .ourpricing .card-info .taps button{
+        padding: 14px 30px;
+        font-size: 18px;
+    }
+    .ourpricing .row{
+        padding: 80px;
+        gap: 30px;
+    }
+    .ourpricing .row .column {
+        padding: 50px 30px;
+    }
+    .ourpricing .row .column h3{
+        padding: 12px 22px;
+        font-size: 22px;
+        border-radius: 6px;
+        font-weight: 500;
+    }
+    .ourpricing .row .column  span .price{
+        font-size: 80px;
+    }
+    .ourpricing .row .column  span .month{
+        font-size: 20px;
+    }
+    .ourpricing .row .column .availablefeatures {
+        padding:40px ;
+        gap: 30px;
+    }
+    .ourpricing .row .column .availablefeatures .features h4{
+        font-size: 20px;
+    }
+    .ourpricing .row .column .availablefeatures .features span{
+        gap: 20px;
+        padding: 14px;
+        border-radius: 8px;
+    }
+    .ourpricing .row .column .availablefeatures .features span .icon{
+        padding: 6px;
+        border-radius: 6px;
+    }
+    .ourpricing .row .column .availablefeatures .features span .icon img{
+       width: 20px;
+       height: 20px;
+    }
+    .ourpricing .row .column a{
+        padding: 20px 24px;
+        border-radius: 0 0 8px 9px;
+        font-size: 18px;
+    }
+}
+
