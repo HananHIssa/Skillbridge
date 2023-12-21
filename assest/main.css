@@ -29,12 +29,14 @@ header{
 }
 
 .container{
-    width: calc( 100% - 324px );
+    width: calc( 100% - 160px );
     margin: auto;
 }
 header .row {
     gap: 50px;
     position: relative;
+    align-items: center;
+    flex-wrap: wrap;
 }
 header .row .burger-ico {
     display: none;
@@ -952,7 +954,7 @@ background: var(--orange-95, #FFF4E5);
     @media (max-width: 600px) {
 
         .container{
-            width: calc(100% - 32px);
+            width: calc( 100% - 32px );
         }
         .logo img{
             width: 25px;
@@ -979,6 +981,15 @@ background: var(--orange-95, #FFF4E5);
         }
         section{
             margin-bottom: 50px;
+        }
+        header .row {
+            gap: 20px;
+        }
+        header .row .auth{
+            font-size: 14px;
+            margin-left: auto;
+            gap: 20px;
+}
         }
     }
     @media (min-width :600px) and (max-width :904px)
@@ -1116,28 +1127,25 @@ background: var(--orange-95, #FFF4E5);
                 }
                 
     .start .subcontainer .start-info .start-main{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 600;
-    background-color: var(#fff);
-    width: fit-content;
-    padding: 12px 24px 12px 12px;
-    text-transform: capitalize;
-    border-radius: 8px;
-    position: relative;
-    margin-bottom: 16px;
-    border-radius: 11px;
-   border: 1px solid var(--White-95, #F1F1F3);
-   background: var(--White-99, #FCFCFD);
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 600;
+        background-color: #fff;
+        width: fit-content;
+        padding: 12px 24px 12px 12px;
+        text-transform: capitalize;
+        border-radius: 8px;
+        position: relative;
+        margin-bottom: 16px;
 }
 .start .subcontainer .start-info {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 121px;
-        margin-bottom: 50px;
-        text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 121px;
+    margin-bottom: 100px;
+    text-align: center;
 }
 .start .start-main .icon{
     padding: 12px;
@@ -1151,38 +1159,39 @@ background: var(--orange-95, #FFF4E5);
 }
 .start .start-info .start-main h1{
     color: var(--Grey-10, #1A1A1A);
-font-family: Be Vietnam Pro;
-font-size: 36px;
-font-style: normal;
-font-weight: 600;
-line-height: 150%;
+    font-family: Be Vietnam Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
 }
 .start .start-info .start-main span {
-color: var(--Orange-50, #FF9500);
-text-align: center;
-font-family: Be Vietnam Pro;
-font-size: 36px;
-font-style: normal;
-font-weight: 600;
-line-height: 150%; /* 54px */
+    color: var(--Orange-50, #FF9500);
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 72px */
 }
 .start .start-info h2{
     color: var(--Grey-15, #262626);
-text-align: center;
-font-family: Be Vietnam Pro;
-font-size: 28px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; /* 42px */
+    text-align: center;
+    font-family: Be Vietnam Pro;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%; /* 57px */
 }
 .start .start-info p{
     color: var(--Grey-15, #262626);
 text-align: center;
 font-family: Be Vietnam Pro;
-font-size: 16px;
+font-size: 18px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 24px */
+line-height: 150%; /* 27px */
+padding: 20px;
 }
                @media (max-width:600px)
                 {
@@ -1199,9 +1208,11 @@ line-height: 150%; /* 24px */
                     }
                     .start .subcontainer .start-info h2{
                         font-size: 23px;
+                        margin-bottom: 6px;
                     }
                     .start .subcontainer .start-info p{
                         font-size: 13px;
+                        margin-bottom: 50px;
                     }
                 }
                 @media (min-width:600px) and (max-width:940px)
@@ -1237,3 +1248,183 @@ line-height: 150%; /* 24px */
 
                     }
                 }
+@media (max-width :600px)
+{
+    .card .container .column{
+        gap: 30px;
+    }
+    .card .card-item {
+        padding :10px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .card .card-item .item {
+        width: calc(100% /2.5);
+    }
+    .card .card-item .video img:first-child{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+@media (min-width:600px) and (max-width:904){
+    .card .card-item {
+        padding: 13px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .card .card-item .item{
+        width: calc (100% / 3.5);
+    }
+}
+@media (min-width:1601px) {
+    .card .card-item {
+        padding: 30pxpx;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .card .card-item .item{
+        padding: 30px 40px;
+    }
+}
+@media (max-width:600px)
+{
+    .benefts .cards .card {
+        width: 100%;
+        gap: 30px;
+        padding: 30px;
+    }
+    .benefts .cards .card .data p{
+        height: fit-content;
+    }
+}
+@media (min-width:600px) and (max-width:904px)
+{
+    .benefts .cards .card {
+        width: calc( (100% - 30px) / 2 );
+        gap: 30px;
+        padding: 30px;
+    }
+    .benefts .cards .card .data p{
+        height: fit-content;
+    }
+}
+@media (min-width:1601px)
+{
+    .card.card-item {
+        padding: 30px;
+    }
+    .card .card-item .item{
+        padding: 30px 40px;
+    }
+}
+@media (max-width:600px)
+{
+    .ava-courses .courses .course{
+        padding: 24px;
+        width: 100%;
+    }
+    .ava-courses .courses .course img{
+        border-radius: 6px;
+    }
+    .ava-courses .courses .course .data{
+        flex-direction: column;
+        gap: 14px;
+        align-items: flex-start;
+    }
+    .ava-courses .courses .course .info-course h3{
+        font-size: 18px;
+    }
+    .ava-courses .courses .course .info-course p{
+        font-size: 14px;
+    }
+}
+@media (min-width :600px) and (max-width:904){
+    .ava-courses .courses .course{
+        padding: 24px;
+        width: 100%;
+    }
+    .ava-courses .courses .course img{
+        border-radius: 6px;
+    }
+}
+@media (min-width :600px) and (max-width:904){
+    .ava-courses .courses .course .data{
+        flex-direction: column;
+        gap: 14px;
+        align-items: flex-start;
+    }
+}
+@media (min-width :905px) and (max-width:1200){
+    .ava-courses .courses .course .data{
+        flex-direction: column;
+        gap: 14px;
+        align-items: flex-start;
+    }
+}
+@media (min-width:1601px)
+{
+    .ava-courses .courses .course{
+        padding: 50px;
+        gap:30px;
+        border-radius: 12px;
+    }
+    .ava-courses .courses .course .data .row span{
+        font-size: 18px;
+        padding: 10px 16px;
+        border-radius: 8px;
+    }
+    .ava-courses .courses .course .info-course h3{
+        font-size: 18px;
+    }
+    .ava-courses .courses .course .info-course p{
+        font-size: 14px;
+    }
+    .ava-courses .courses .course a{
+        padding: 18px 24px;
+        border-radius: 8px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+@media (max-width:600px)
+{
+    .testimonials .testimonial{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .testimonials .testimonial p{
+        font-size: 14px;
+        padding: 30px;
+    }
+    .testimonials .testimonial .info{
+        padding: 20px 30px;
+    }
+    .testimonials .testimonial a{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    .testimonials .testimonial .info span{
+        font-size: 16px;
+    }
+}
+@media (min-width:600px) and (max-width:909)
+{
+    .testimonials .testimonial{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .testimonials .testimonial p{
+        font-size: 14px;
+        padding: 30px;
+    }
+    .testimonials .testimonial .info{
+        padding: 20px 30px;
+    }
+    .testimonials .testimonial .row a{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    .testimonials .testimonial .info span{
+        font-size: 16px;
+    }
+}
