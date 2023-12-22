@@ -1608,7 +1608,7 @@ line-height: 150%; /* 21px */
 }
 @media (min-width :600px) and (max-width:904px)
 {
-    .card-sec .card{
+    .benefts.card-sec .card{
        
         width: calc( ( 100% - 50px ) / 2);
         
