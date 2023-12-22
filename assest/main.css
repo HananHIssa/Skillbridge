@@ -427,7 +427,7 @@ line-height: 150%; /* 27px */
     margin-bottom: 40px;
 }
 .ava-courses .card-sec{
-    width: calc(100% - 200px);
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -571,7 +571,7 @@ line-height: 150%;
     margin-bottom: 60px;
     }
     .ourtestimonials .card-sec{
-        width: calc(100% - 200px);
+        width: 100%;
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -682,7 +682,7 @@ line-height: 150%;
         margin-bottom: 60px;
         }
         .ourpricing .card-sec{
-            width: calc(100% - 250px);
+            width:100%;
             display: flex;
             flex-direction: column;
             gap: 20px;
@@ -793,16 +793,17 @@ line-height: 73%; /* 11.68px */
         font-weight: 500;
         line-height: 150%; /* 27px */
     }
-    .ourpricing .column .availablefeatures .features{
+    .ourpricing .column .availablefeatures {
         display: flex;
         flex-direction: column;
         padding: 0 30px;
         flex-wrap: nowrap;
         gap: 20px;
     }
-    .ourpricing .availablefeatures .features span{
+    .ourpricing .availablefeatures .features {
         display: flex;
         flex-direction: row;
+        align-items: center;
         padding: 14px;
         gap: 20px;
         border-radius: 6px ;
