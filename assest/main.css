@@ -340,18 +340,18 @@ main .card-sec {
     font-weight: 600;
     line-height: 150%; /* 57px */
 }
-.info p{
-    color: var(--grey-35, #59595A);
-    font-family: Be Vietnam Pro;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%; /* 24px */
-}
+    .info p {
+        color: var(--grey-35, #59595A);
+        font-family: Be Vietnam Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        width: 80%;
+    }
 .benefts .card-sec  .view {
     padding: 14px 20px;
     background-color: var(--secondary-bg-color);
-    align-self: flex-end;
     color: var(--grey-15, #262626);
     border-radius: 5px;
     border:1px solid #F1F1F3;
@@ -991,7 +991,6 @@ background: var(--orange-95, #FFF4E5);
             gap: 20px;
 }
         }
-    }
     @media (min-width :600px) and (max-width :904px)
 {
     .container{
@@ -1362,6 +1361,10 @@ line-height: 150%; /* 21px */
     .benefts .cards .card .data p{
         height: fit-content;
     }
+    .benefts .card-sec .intro {
+        display: flex;
+        flex-direction: column;
+    }
 }
 @media (min-width:600px) and (max-width:904px)
 {
@@ -1372,6 +1375,10 @@ line-height: 150%; /* 21px */
     }
     .benefts .cards .card .data p{
         height: fit-content;
+    }
+    .benefts .card-sec .intro {
+        display: flex;
+        flex-direction: column;
     }
 }
 @media (min-width:1601px)
