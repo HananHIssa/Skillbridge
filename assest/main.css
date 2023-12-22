@@ -794,7 +794,6 @@ line-height: 73%; /* 11.68px */
         line-height: 150%; /* 27px */
     }
     .ourpricing .column .availablefeatures {
-        width: 100%;
         display: flex;
        padding: 30px;
        flex-direction: column;
@@ -805,27 +804,35 @@ border-radius: 14px 14px 0px 0px;
 border: 1px solid var(--White-95, #F1F1F3);
 background: var(--Absolute-White, #FFF);
     }
-    .ourpricing .availablefeatures .features {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        padding: 14px;
-        gap: 20px;
-        border-radius: 6px ;
-        border: 1px solid var(--white-95, #F1F1F3);
-    }
-    .ourpricing .availablefeatures .features span {
-        color: var(--Grey-30, #4C4C4D);
-font-family: Be Vietnam Pro;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 21px */
-    }
-    .ourpricing .availablefeatures .features .icon{
-        width: 16px;
-        height: 16px;
-    }
+        .ourpricing .availablefeatures .features {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 14px;
+            gap: 20px;
+            border-radius: 6px;
+            border: 1px solid var(--white-95, #F1F1F3);
+        }
+        .ourpricing .availablefeatures .features span {
+            width: 85%;
+            color: var(--Grey-30, #4C4C4D);
+            font-family: Be Vietnam Pro;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 150%;
+        }
+
+    main .ourpricing .availablefeatures .features .t {
+    background-color: rgba(255, 244, 229, 1);
+}
+main .ourpricing .availablefeatures .features .t, main .ourpricing .x {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    border-radius: 4px;
+}
     .ourpricing .column    a 
     {
 
