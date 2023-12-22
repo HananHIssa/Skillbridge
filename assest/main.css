@@ -1833,18 +1833,12 @@ line-height: 150%;
     line-height: 150%;
     width: 80%;
 }
-@media (min-width:600) and (max-width:820)
+@media (min-width:600px) and (max-width:820px)
 {
     .card-sec .card{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
+       
         width: calc( ( 100% - 50px ) / 2);
-        padding: 33px;
-        flex-direction:column;
-        background-color: #FFF;
-        border-radius: 10px;
-        flex-grow: 1;
+        
         }
         .ourtestimonials .testimonial{
             width: 100%;
