@@ -1825,3 +1825,12 @@ line-height: 150%; /* 21px */
         line-height: 150%;
     }
 }
+.info p {
+    color: var(--grey-35, #59595A);
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 80%;
+}
