@@ -795,10 +795,14 @@ line-height: 73%; /* 11.68px */
     }
     .ourpricing .column .availablefeatures {
         display: flex;
-        flex-direction: column;
-        padding: 0 30px;
-        flex-wrap: nowrap;
-        gap: 20px;
+       padding: 30px;
+flex-direction: column;
+align-items: center;
+gap: 24px;
+align-self: stretch;
+border-radius: 14px 14px 0px 0px;
+border: 1px solid var(--White-95, #F1F1F3);
+background: var(--Absolute-White, #FFF);
     }
     .ourpricing .availablefeatures .features {
         display: flex;
