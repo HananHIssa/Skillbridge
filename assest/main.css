@@ -810,6 +810,7 @@ background: var(--Absolute-White, #FFF);
             flex-direction: row;
             align-items: center;
             padding: 14px;
+            flex-wrap: nowrap;
             gap: 20px;
             border-radius: 6px;
             border: 1px solid var(--white-95, #F1F1F3);
@@ -1644,7 +1645,7 @@ line-height: 150%; /* 21px */
     .ourpricing .row .column .availablefeatures .features{
         padding: 0;
     }
-    .ourpricing .availablefeatures .features spqn{
+    .ourpricing .availablefeatures .features span{
         color: var(--Grey-30, #4C4C4D);
         font-family: Be Vietnam Pro;
         font-size: 14px;
@@ -1729,16 +1730,16 @@ line-height: 150%; /* 21px */
     .ourpricing .row .column .availablefeatures .features h4{
         font-size: 20px;
     }
-    .ourpricing .row .column .availablefeatures .features span{
+    .ourpricing .row .column .availablefeatures .features {
         gap: 20px;
         padding: 14px;
         border-radius: 8px;
     }
-    .ourpricing .row .column .availablefeatures .features span .icon{
+    .ourpricing .row .column .availablefeatures .features  .t{
         padding: 6px;
         border-radius: 6px;
     }
-    .ourpricing .row .column .availablefeatures .features span .icon img{
+    .ourpricing .row .column .availablefeatures .features  .t .x{
        width: 20px;
        height: 20px;
     }
