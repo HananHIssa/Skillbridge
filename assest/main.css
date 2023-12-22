@@ -1068,6 +1068,9 @@ background: var(--orange-95, #FFF4E5);
 
 @media (max-width :600px)
 {
+    section{
+        margin-bottom: 0px;
+    }
     header .row nav{
         flex-direction: column;
         text-align: center;
@@ -1215,94 +1218,7 @@ font-weight: 400;
 line-height: 150%; /* 27px */
 padding: 20px;
 }
-               @media (max-width:600px)
-                {
-                    .start .start-main h1{
-                        color: var(--Grey-15, #262626);
-                        text-align: center;
-                        font-family: Be Vietnam Pro;
-                        font-size: 13px;
-                        font-style: normal;
-                        font-weight: 300;
-                        line-height: 150%; /* 21px */
-                    }
-                    .start .start-info h3{
-                        color: var(--Grey-15, #262626);
-                        text-align: center;
-                        font-family: Be Vietnam Pro;
-                        font-size: 24px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 150%; /* 36px */
-                    }
-                    .start .start-info p{
-                        color: var(--Grey-15, #262626);
-                        text-align: center;
-font-family: Be Vietnam Pro;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 21px */
-                    }
-                    .start .start-main h1 span {
-                        color: var(--Orange-50, #FF9500);
-                        font-family: Be Vietnam Pro;
-                        font-size: 13px;
-                        font-style: normal;
-                        font-weight: 300;
-                        line-height: 150%; /* 24px */
-                    }
-                    .start .linker .explore{
-                        display: flex;
-                      padding: 14px 20px;
-                    justify-content: center;
-                    align-items: center;
-                    gap: 8px;
-                    border-radius: 6px;
-                    color: var(--Absolute-White, #FFF);
-                    text-align: center;
-                     font-family: Be Vietnam Pro;
-                    font-size: 14px;
-                    font-style: normal;
-                    font-weight: 600;
-                      line-height: 150%; /* 21px */
-                    background: var(--Orange-50, #FF9500)
-                    }
-                    .start .linker .price{
-                        color: var(--Grey-15, #262626);
-                        text-align: center;
-                        font-family: Be Vietnam Pro;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: 150%; /* 21px */
-                    }
-                    .start .subcontainer .start-info {
-                        margin-top: 50px;
-                        margin-bottom: 30px;
-                    }
-                    .start .subcontainer .start-info .start-main {
-                        padding: 14px;
-                        margin-bottom: 15px;
-                    }
-                  /*  .start .subcontainer .start-info .start-main h1{
-                        font-size: 15px;
-                    }
-                    .start .subcontainer .start-info h2{
-                        font-size: 23px;
-                        margin-bottom: 6px;
-                    }
-                    .start .subcontainer .start-info p{
-                        font-size: 13px;
-                        margin-bottom: 50px;
-                    }*/
-                    .start .start-info .start-main span {
-                        color: var(--Orange-50, #FF9500);
-                        text-align: center;
-                        font-family: Be Vietnam Pro;
-                        font-style: normal;
-                        line-height: 150%;
-                }
+                    
 @media (min-width :905px) and (max-width:1200){
     .ava-courses .courses .course .data{
         flex-direction: column;
@@ -1375,6 +1291,81 @@ line-height: 150%; /* 21px */
 }
 @media  (max-width :600px)
 {
+    .start .start-main h1{
+        color: var(--Grey-15, #262626);
+        text-align: center;
+        font-family: Be Vietnam Pro;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 21px */
+    }
+    .start .start-info h3{
+        color: var(--Grey-15, #262626);
+        text-align: center;
+        font-family: Be Vietnam Pro;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 36px */
+    }
+    .start .start-info p{
+        color: var(--Grey-15, #262626);
+        text-align: center;
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+    }
+    .start .start-main h1 span {
+        color: var(--Orange-50, #FF9500);
+        font-family: Be Vietnam Pro;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 150%; /* 24px */
+    }
+    .start .linker .explore{
+        display: flex;
+      padding: 14px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 6px;
+    color: var(--Absolute-White, #FFF);
+    text-align: center;
+     font-family: Be Vietnam Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+      line-height: 150%; /* 21px */
+    background: var(--Orange-50, #FF9500)
+    }
+    .start .linker .price{
+        color: var(--Grey-15, #262626);
+        text-align: center;
+        font-family: Be Vietnam Pro;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%; /* 21px */
+    }
+    .start .subcontainer .start-info {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .start .subcontainer .start-info .start-main {
+        padding: 14px;
+        margin-bottom: 15px;
+    }
+    .start .start-info .start-main span {
+        color: var(--Orange-50, #FF9500);
+        text-align: center;
+        font-family: Be Vietnam Pro;
+        font-style: normal;
+        line-height: 150%;
+}
     footer {
         padding:50px 0 24px ;
     }
