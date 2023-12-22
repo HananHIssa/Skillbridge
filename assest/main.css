@@ -1376,7 +1376,7 @@ line-height: 150%; /* 21px */
     .benefts .cards .card .data p{
         height: fit-content;
     }
-    .benefts .card-sec .intro {
+    .container .card-sec .intro {
         display: flex;
         flex-direction: column;
     }
