@@ -1006,7 +1006,7 @@ background: var(--orange-95, #FFF4E5);
             align-self: flex-start;
         }
         section{
-            margin-bottom: 50px;
+            margin-bottom: 30px;
         }
         header .row {
             gap: 20px;
@@ -1803,7 +1803,7 @@ font-family: Be Vietnam Pro;
 font-size: 14px;
 font-style: normal;
 font-weight: 400;
-line-height: 150%; /* 21px */
+line-height: 150%;
     }
     footer .row .sec .sec-item nav :last-child  {
         display: flex;
@@ -1825,7 +1825,9 @@ line-height: 150%; /* 21px */
         line-height: 150%;
     }
 }
-.ourtestimonials .intro p {
+
+}
+.ourtestimonials .card-sec .intro p {
     color: var(--grey-35, #59595A);
     font-family: Be Vietnam Pro;
     font-size: 16px;
