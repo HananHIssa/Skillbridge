@@ -1717,3 +1717,79 @@ line-height: 150%; /* 21px */
     }
 }
 
+@media (max-width:600)
+{
+    footer {
+        padding:50px 0 24px ;
+        background-color: red;
+    }
+    footer .row {
+        display: flex;
+        width: 390px;
+        padding: 50px 20px 24px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    footer .first{
+        gap: 12px;
+    }
+    footer .first .logo{
+        margin-bottom: 17px;
+        padding: 5.5px;
+    }
+    footer .first .logo img{
+        width: 32px;
+        height: 32px;
+    }
+    footer .first div :not(.logo)
+    {
+        font-size: 14px;
+    }
+    footer .first span {
+color: var(--Grey-15, #262626);
+font-family: Be Vietnam Pro;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+    }
+    footer .sec {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    footer .row .sec .sec-item  {
+        width: calc( ( 100% - 40px ) / 2 );
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        align-self: stretch;
+    }
+    footer .row .sec nav a{
+color: var(--Grey-35, #59595A);
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 21px */
+    }
+    footer .row .sec .sec-item nav :last-child  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+    footer .sec .sec-item nav :last-child  a img{
+        width: 20px;
+        height:20px;
+    }
+    footer .sec .sec-item h2{
+        color: var(--Grey-15, #262626);
+        font-family: Be Vietnam Pro;
+         font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+    }
+}
