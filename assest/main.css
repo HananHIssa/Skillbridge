@@ -1005,9 +1005,6 @@ background: var(--orange-95, #FFF4E5);
         .card-sec a{
             align-self: flex-start;
         }
-        section{
-            margin-bottom: 30px;
-        }
         header .row {
             gap: 20px;
         }
@@ -1835,4 +1832,18 @@ line-height: 150%;
     font-weight: 400;
     line-height: 150%;
     width: 80%;
+}
+@media (min-width:600) and (max-width:820)
+{
+    .card-sec .card{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        width: calc( ( 100% - 50px ) / 2);
+        padding: 33px;
+        flex-direction:column;
+        background-color: #FFF;
+        border-radius: 10px;
+        flex-grow: 1;
+        }
 }
