@@ -1303,153 +1303,6 @@ line-height: 150%; /* 21px */
                         font-style: normal;
                         line-height: 150%;
                 }
-                @media (min-width:600px) and (max-width:940px)
-                {
-                    .start .subcontainer .start-info .start-main h1 {
-                       font-size: 23px;
-                    }
-                }
-                @media (max-width:1601px)
-                {
-                    .start .subcontainer .start-info {
-                        margin-top: 50px;
-                        margin-bottom: 30px;
-                    }
-                    .start .start-info .start-main{
-                        padding: 14px 30px 14px 20px;
-                        margin-bottom: 20px;
-                    }
-                    .start .subcontainer .start-main h1{
-                        font-size: 15px;
-                    }
-                   .start .subcontainer .start-info h2{
-                        font-size: 23px;
-                    }
-                    .start .subcontainer .start-info p{
-                        font-size: 13px;
-                    }
-                    .start .subcontainer .linker a{
-                        padding: 18px 24px;
-                        font-weight: 600px;
-                        font-size: 18px;
-                        border-radius: 7px;
-
-                    }
-                }
-@media (max-width :600px)
-{
-    .card .container .column{
-        gap: 30px;
-    }
-    .card .card-item {
-        padding :10px;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
-    .card .card-item .item {
-        width: calc(100% /2.5);
-    }
-    .card .card-item .video img:first-child{
-        width: 100%;
-        border-radius: 10px;
-    }
-}
-@media (min-width:600px) and (max-width:904){
-    .card .card-item {
-        padding: 13px;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
-    .card .card-item .item{
-        width: calc (100% / 3.5);
-    }
-}
-@media (min-width:1601px) {
-    .card .card-item {
-        padding: 30pxpx;
-        flex-wrap: nowrap;
-        overflow-x: auto;
-    }
-    .card .card-item .item{
-        padding: 30px 40px;
-    }
-}
-@media (max-width:600px)
-{
-    .benefts .cards .card {
-        width: 100%;
-        gap: 30px;
-        padding: 30px;
-    }
-    .benefts .cards .card .data p{
-        height: fit-content;
-    }
-    .benefts .card-sec .intro {
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media (min-width:600px) and (max-width:904px)
-{
-    .benefts .cards .card {
-        width: calc( (100% - 30px) / 2 );
-        gap: 30px;
-        padding: 30px;
-    }
-    .benefts .cards .card .data p{
-        height: fit-content;
-    }
-    .container .card-sec .intro {
-        display: flex;
-        flex-direction: column;
-    }
-}
-@media (min-width:1601px)
-{
-    .card.card-item {
-        padding: 30px;
-    }
-    .card .card-item .item{
-        padding: 30px 40px;
-    }
-}
-@media (max-width:600px)
-{
-    .ava-courses .courses .course{
-        padding: 24px;
-        width: 100%;
-    }
-    .ava-courses .courses .course img{
-        border-radius: 6px;
-    }
-    .ava-courses .courses .course .data{
-        flex-direction: column;
-        gap: 14px;
-        align-items: flex-start;
-    }
-    .ava-courses .courses .course .info-course h3{
-        font-size: 18px;
-    }
-    .ava-courses .courses .course .info-course p{
-        font-size: 14px;
-    }
-}
-@media (min-width :600px) and (max-width:904){
-    .ava-courses .courses .course{
-        padding: 24px;
-        width: 100%;
-    }
-    .ava-courses .courses .course img{
-        border-radius: 6px;
-    }
-}
-@media (min-width :600px) and (max-width:904){
-    .ava-courses .courses .course .data{
-        flex-direction: column;
-        gap: 14px;
-        align-items: flex-start;
-    }
-}
 @media (min-width :905px) and (max-width:1200){
     .ava-courses .courses .course .data{
         flex-direction: column;
@@ -1459,6 +1312,44 @@ line-height: 150%; /* 21px */
 }
 @media (min-width:1601px)
 {
+    .start .subcontainer .start-info {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+    .start .start-info .start-main{
+        padding: 14px 30px 14px 20px;
+        margin-bottom: 20px;
+    }
+    .start .subcontainer .start-main h1{
+        font-size: 15px;
+    }
+   .start .subcontainer .start-info h2{
+        font-size: 23px;
+    }
+    .start .subcontainer .start-info p{
+        font-size: 13px;
+    }
+    .start .subcontainer .linker a{
+        padding: 18px 24px;
+        font-weight: 600px;
+        font-size: 18px;
+        border-radius: 7px;
+
+    }
+    .card .card-item {
+        padding: 30pxpx;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .card .card-item .item{
+        padding: 30px 40px;
+    }
+    .card.card-item {
+        padding: 30px;
+    }
+    .card .card-item .item{
+        padding: 30px 40px;
+    }
     .ava-courses .courses .course{
         padding: 50px;
         gap:30px;
@@ -1482,8 +1373,135 @@ line-height: 150%; /* 21px */
         font-weight: 500;
     }
 }
-@media (max-width:600px)
+@media  (max-width :600px)
 {
+    footer {
+        padding:50px 0 24px ;
+    }
+    footer .row {
+        display: flex;
+        width: 390px;
+        padding: 50px 20px 24px 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+    footer .first{
+        gap: 12px;
+    }
+    footer .first .logo{
+        margin-bottom: 17px;
+        padding: 5.5px;
+    }
+    footer .first .logo img{
+        width: 32px;
+        height: 32px;
+    }
+    footer .first div :not(.logo)
+    {
+        font-size: 14px;
+    }
+    footer .first span {
+color: var(--Grey-15, #262626);
+font-family: Be Vietnam Pro;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 22.5px */
+    }
+    footer .sec {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    footer .row .sec .sec-item  {
+        width: calc ( ( 100% - 60px ) / 2 );
+        display: flex;
+        align-items: flex-start;
+        gap: 30px;
+        align-self: stretch;
+    }
+    footer .row .sec nav a{
+color: var(--Grey-35, #59595A);
+font-family: Be Vietnam Pro;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+    }
+    footer .row .sec .sec-item nav :last-child  {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        align-self: stretch;
+    }
+    footer .sec .sec-item nav :last-child  a img{
+        width: 20px;
+        height:20px;
+    }
+    footer .sec .sec-item h2{
+        color: var(--Grey-15, #262626);
+        font-family: Be Vietnam Pro;
+         font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+    }
+
+.ourtestimonials .card-sec .intro p {
+    color: var(--grey-35, #59595A);
+    font-family: Be Vietnam Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    width: 80%;
+}
+    .card .container .column{
+        gap: 30px;
+    }
+    .card .card-item {
+        padding :10px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .card .card-item .item {
+        width: calc(100% /2.5);
+    }
+    .card .card-item .video img:first-child{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .benefts .cards .card {
+        width: 100%;
+        gap: 30px;
+        padding: 30px;
+    }
+    .benefts .cards .card .data p{
+        height: fit-content;
+    }
+    .benefts .card-sec .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .ava-courses .courses .course{
+        padding: 24px;
+        width: 100%;
+    }
+    .ava-courses .courses .course img{
+        border-radius: 6px;
+    }
+    .ava-courses .courses .course .data{
+        flex-direction: column;
+        gap: 14px;
+        align-items: flex-start;
+    }
+    .ava-courses .courses .course .info-course h3{
+        font-size: 18px;
+    }
+    .ava-courses .courses .course .info-course p{
+        font-size: 14px;
+    }
     .testimonials .testimonial{
         width: 100%;
         border-radius: 10px;
@@ -1502,30 +1520,6 @@ line-height: 150%; /* 21px */
     .testimonials .testimonial .info span{
         font-size: 16px;
     }
-}
-@media (min-width:600px) and (max-width:909)
-{
-    .testimonials .testimonial{
-        width: 100%;
-        border-radius: 10px;
-    }
-    .testimonials .testimonial p{
-        font-size: 14px;
-        padding: 30px;
-    }
-    .testimonials .testimonial .info{
-        padding: 20px 30px;
-    }
-    .testimonials .testimonial   a{
-        font-size: 14px;
-        padding: 10px 12px;
-    }
-    .testimonials .testimonial .info span{
-        font-size: 16px;
-    }
-}
-@media  (max-width :600px)
-{
     .ourpricing .card-info .taps {
         align-self: center;
     }
@@ -1608,6 +1602,60 @@ line-height: 150%; /* 21px */
 }
 @media (min-width :600px) and (max-width:904px)
 {
+    .start .subcontainer .start-info .start-main h1 {
+        font-size: 23px;
+     }
+    .card .card-item {
+        padding: 13px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+    }
+    .card .card-item .item{
+        width: calc (100% / 3.5);
+    }
+    .benefts .cards .card {
+        width: calc( (100% - 30px) / 2 );
+        gap: 30px;
+        padding: 30px;
+    }
+    .benefts .cards .card .data p{
+        height: fit-content;
+    }
+    .container .card-sec .intro {
+        display: flex;
+        flex-direction: column;
+    }
+    .ava-courses .courses .course{
+        padding: 24px;
+        width: 100%;
+    }
+    .ava-courses .courses .course img{
+        border-radius: 6px;
+    }
+.ava-courses .courses .course .data{
+    flex-direction: column;
+    gap: 14px;
+    align-items: flex-start;
+}
+   
+    .testimonials .testimonial{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .testimonials .testimonial p{
+        font-size: 14px;
+        padding: 30px;
+    }
+    .testimonials .testimonial .info{
+        padding: 20px 30px;
+    }
+    .testimonials .testimonial   a{
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    .testimonials .testimonial .info span{
+        font-size: 16px;
+    }
     .benefts.card-sec .card{
        
         width: calc( ( 100% - 50px ) / 2);
@@ -1756,89 +1804,4 @@ line-height: 150%; /* 21px */
     }
 }
 
-@media (max-width:600)
-{
-    footer {
-        padding:50px 0 24px ;
-    }
-    footer .row {
-        display: flex;
-        width: 390px;
-        padding: 50px 20px 24px 20px;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-    }
-    footer .first{
-        gap: 12px;
-    }
-    footer .first .logo{
-        margin-bottom: 17px;
-        padding: 5.5px;
-    }
-    footer .first .logo img{
-        width: 32px;
-        height: 32px;
-    }
-    footer .first div :not(.logo)
-    {
-        font-size: 14px;
-    }
-    footer .first span {
-color: var(--Grey-15, #262626);
-font-family: Be Vietnam Pro;
-font-size: 15px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%; /* 22.5px */
-    }
-    footer .sec {
-        width: 100%;
-        flex-wrap: wrap;
-    }
-    footer .row .sec .sec-item  {
-        width: calc ( ( 100% - 60px ) / 2 );
-        display: flex;
-        align-items: flex-start;
-        gap: 30px;
-        align-self: stretch;
-    }
-    footer .row .sec nav a{
-color: var(--Grey-35, #59595A);
-font-family: Be Vietnam Pro;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 150%;
-    }
-    footer .row .sec .sec-item nav :last-child  {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 10px;
-        align-self: stretch;
-    }
-    footer .sec .sec-item nav :last-child  a img{
-        width: 20px;
-        height:20px;
-    }
-    footer .sec .sec-item h2{
-        color: var(--Grey-15, #262626);
-        font-family: Be Vietnam Pro;
-         font-size: 18px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 150%;
-    }
-}
 
-}
-.ourtestimonials .card-sec .intro p {
-    color: var(--grey-35, #59595A);
-    font-family: Be Vietnam Pro;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    width: 80%;
-}
