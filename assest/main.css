@@ -326,7 +326,7 @@ main .card-sec {
     margin-bottom: 55px;
 }
 .card-sec .info{
-    width: calc(100% -350px);
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 5px;
@@ -1248,12 +1248,12 @@ line-height: 150%; /* 21px */
                     }
                     .start .linker .price{
                         color: var(--Grey-15, #262626);
-text-align: center;
-font-family: Be Vietnam Pro;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: 150%; /* 21px */
+                        text-align: center;
+                        font-family: Be Vietnam Pro;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 150%; /* 21px */
                     }
                     .start .subcontainer .start-info {
                         margin-top: 50px;
@@ -1494,7 +1494,7 @@ line-height: 150%; /* 21px */
         font-size: 16px;
     }
 }
-@media (max-width :600px)
+@media  (max-width :600px)
 {
     .ourpricing .card-info .taps {
         align-self: center;
@@ -1721,7 +1721,6 @@ line-height: 150%; /* 21px */
 {
     footer {
         padding:50px 0 24px ;
-        background-color: red;
     }
     footer .row {
         display: flex;
@@ -1759,7 +1758,7 @@ line-height: 150%; /* 22.5px */
         flex-wrap: wrap;
     }
     footer .row .sec .sec-item  {
-        width: calc( ( 100% - 40px ) / 2 );
+        width: calc ( ( 100% - 60px ) / 2 );
         display: flex;
         align-items: flex-start;
         gap: 30px;
