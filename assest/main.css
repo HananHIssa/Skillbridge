@@ -1608,6 +1608,15 @@ line-height: 150%; /* 21px */
 }
 @media (min-width :600px) and (max-width:904px)
 {
+    .card-sec .card{
+       
+        width: calc( ( 100% - 50px ) / 2);
+        
+        }
+        .ourtestimonials .testimonial
+        {
+            width: 100%;
+        }
     .ourpricing .card-info .taps {
         align-self: center;
     }
@@ -1832,15 +1841,4 @@ line-height: 150%;
     font-weight: 400;
     line-height: 150%;
     width: 80%;
-}
-@media (min-width:600px) and (max-width:820px)
-{
-    .card-sec .card{
-       
-        width: calc( ( 100% - 50px ) / 2);
-        
-        }
-        .ourtestimonials .testimonial{
-            width: 100%;
-        }
 }
